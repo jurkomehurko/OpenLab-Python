@@ -48,7 +48,7 @@ months and days.
     3. `Participant` class should have one additional property called `visited_workshops` which is a list of workshops he/she
     visits.
     
-4. Place these classes in their respective files. Create one file called `main.py` where you
+4. Place these classes in their respective files. Create one file called `__init__.py` in the project root where you
 
     1. Create mocks
     2. Have a `def main()` method and an initializer
