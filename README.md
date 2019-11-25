@@ -54,7 +54,10 @@ months and days.
     2. Have a `def main()` method and an initializer
     
     After completing this, you have your very own Python program!
-    
-5. Optional: you can think of a better architecture for your application, like storing workshop names in constants or
+ 
+5. Add mocks into `OpenLab` class and think of some methods that would return data in human readable format. (This step
+is about you being creative!)
+   
+6. Optional: you can think of a better architecture for your application, like storing workshop names in constants or
 catching incorrect inputs...
  
