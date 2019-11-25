@@ -9,5 +9,5 @@ class Member:
 
     def compute_age(self):
         today = date.today()
-        return today.year - self.date_of_birth.year - \
-               ((today.month, today.day) < (self.date_of_birth.month, self.date_of_birth.day))
+        age = today.year - self.date_of_birth.year - ((today.month, today.day) < (self.date_of_birth.month, self.date_of_birth.day))
+        print(str(self.name) + ' is ' + str(age) + ' years old')

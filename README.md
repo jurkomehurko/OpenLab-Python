@@ -36,8 +36,7 @@ you can create a program that uppercases random characters in the word.
 (3) total number of people working here.
 
 2. Now create a class called `Member` which has three member variables: (1) name, (2) email and (3) date of birth (use
-`datetime`). This class should also include a method called `compute_age` which returns age of the participant in years,
-months and days.
+`datetime`). This class should also include a method called `compute_age` which returns age of the participant in years.
 
 3. Next, create two classes called `Mentor` and `Participant`.
     
