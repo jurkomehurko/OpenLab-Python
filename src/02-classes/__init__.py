@@ -13,16 +13,16 @@ tian_dob = datetime.datetime(2001, 11, 4)
 tian_lang = ['C#', 'JavaScript', 'C', 'C++']
 tian = Mentor('Tian', 'tian@openlab.si', tian_dob, 'Unity', tian_lang)
 
-OpenLab.mentor_list = [peter, tian]
-OpenLab.workshop_list = ['AI', 'Unity']
-OpenLab.number_of_employees = len(OpenLab.mentor_list)
+mentor_list = [peter, tian]
+workshop_list = ['AI', 'Unity']
+number_of_employees = len(mentor_list) + 15
 
 # Participants
 janez_dob = datetime.datetime(1990, 1, 1)
 janez_workshops = ['AI', 'Unity']
 janez = Participant('Janez', 'jb@openlab.si', janez_dob, janez_workshops)
 
-OpenLab.mentor_list[0].return_mentor_data()
-janez.compute_age()
-tian.compute_age()
-print('Number of employees in OpenLab: ' + str(OpenLab.number_of_employees))
+openlab = OpenLab(mentor_list, workshop_list, number_of_employees)
+openlab.mentors_count()
+openlab.workshops()
+openlab.total_number_of_employees()
